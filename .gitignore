@@ -1,0 +1,31 @@
+# Variables de entorno (se permite la plantilla .env.example)
+.env
+.env.*
+!.env.example
+
+# Claves, certificados y credenciales
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa*
+id_ed25519*
+credentials.json
+service-account*.json
+secrets.*
+
+# Configuración local de Claude Code
+.claude/settings.local.json
+
+# Dependencias y builds
+node_modules/
+dist/
+build/
+
+# Sistema y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
